@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "/actors/:id" => "actors#show"
   patch "/actors/:id" => "actors#update"
   delete "/actors/:id" => "actors#destroy"
+  get "/actors/plot/:id" => "actors#plot"
   get "/movies" => "movies#index"
   post "/movies" => "movies#create"
   get "/movies/:id" => "movies#show"
