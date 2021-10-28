@@ -16,3 +16,15 @@
 #   Movie.create(title: FFaker::Movie.title, year: rand(1900...2020), plot: FFaker::Lorem.paragraph)
 # end
 
+MovieGenre.create(movie_id: 1, genre_id: 1)
+MovieGenre.create(movie_id: 2, genre_id: 2)
+MovieGenre.create(movie_id: 3, genre_id: 3)
+MovieGenre.create(movie_id: 4, genre_id: 4)
+MovieGenre.create(movie_id: 5, genre_id: 5)
+MovieGenre.create(movie_id: 6, genre_id: 1)
+MovieGenre.create(movie_id: 7, genre_id: 2)
+MovieGenre.create(movie_id: 8, genre_id: 3)
+MovieGenre.create(movie_id: 9, genre_id: 4)
+MovieGenre.create(movie_id: 10, genre_id: 5)
+MovieGenre.create(movie_id: 11, genre_id: 3)
+
