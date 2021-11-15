@@ -8,8 +8,11 @@ var app = new Vue({
       actors: [],
     };
   },
+  created: function () {
+    this.indexMovies();
+  },
   methods: {
-    showMovies: function () {
+    indexMovies: function () {
       axios.get("http://localhost:3000/movies").then(function (response) {
         this.actors = response.data;
         console.log(this.actors);
